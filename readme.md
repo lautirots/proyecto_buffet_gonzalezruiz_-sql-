@@ -13,6 +13,8 @@ Gestión de Pedidos: La base de datos debe permitirnos registrar la disponibilid
 
 
 Objetivo:
+
+
 Diseñar e implementar una base de datos relacional que satisfaga todas las necesidades de gestiónes gastronomicas para nuestro sistema de gestión de buffet. Esta base de datos deberá ser eficiente, escalable y fácil de mantener, permitiendo una gestión ágil y precisa de todas las operaciones.
 
 Descripción de la Base de Datos - Buffet
