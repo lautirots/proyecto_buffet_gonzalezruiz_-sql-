@@ -98,6 +98,9 @@ Registro detallado de los pedidos realizados, incluyendo la fecha, cliente, plat
 En resumen, esta base de datos proporciona una estructura para organizar y gestionar eficientemente las operaciones deun buffet, lo que contribuye a mejorar el servicio ofrecido a los clientes. 
 
 
+
+Der simplificado
+
 ```
 +------------------+       +-----------------------+       +------------------+
 |      CLIENTE     |       |       PEDIDO          |       |   DETALLE_PEDIDO |
