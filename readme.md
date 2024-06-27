@@ -2,20 +2,22 @@ CREACION BASE DE APP PARA GESTION GASTRONOMICA (BUFFET)
 
 
 Problema:
-Nuestro equipo de desarrollo está trabajando en un sistema de gestión de comercios gastronomicos, y nos enfrentamos a la necesidad de diseñar una base de datos eficiente que pueda manejar todas las operaciones relacionadas con la gestion de negocios gastronomicos, es este caso un buffet de manera óptima.
+Nuestro equipo de desarrollo está trabajando en un sistema de gestión de comercios gastronomicos, y nos enfrentamos a la necesidad de diseñar una base de datos eficiente que pueda manejar todas las operaciones relacionadas con la gestion de negocios gastronomicos, asi minimizar perdidas de dinero y mercaderia.
+
 
 Descripción del Problema:
-Gestión de Clientes y Empleados: Necesitamos una base de datos que nos permita registrar la información de los clientes que realizan pedidos, así como de los empleados involucrados en el proceso de preparacion de los diferentes platos, como los cocineros o encargados de atención al cliente.
+Gestión de Clientes y Empleados: Necesitamos una base de datos que nos permita registrar la información de los clientes que realizan pedidos, así como de los empleados involucrados en el proceso de preparacion de los diferentes platos, tanto los cocineros y encargados de atención al cliente. De esta manera poder definir un menu estable, segun la necesidad de nuestros clientes.
 
 Gestión de Categoria de Platos: Es importante poder clasificar los platos según su tipo, distinguiendo entre celiaco, hipertenso, diabetico, vegetariano, etc. Esto nos ayudará a adaptar nuestros servicios según las necesidades del cliente.
 
-Gestión de Pedidos: La base de datos debe permitirnos registrar la disponibilidad de cada plato realizado, así como gestionar su  estado (pago/no pago). Esto es fundamental para darle prioridad a ciertas "comandas" sobre otras.
+Gestión de Pedidos: es importante saber el numero exacto de pedidos por dia, para asi poder hacer los pedidos de mercaderia, con mas exactitud y sin desperdicios.
 
 
 Objetivo:
 
 
-Diseñar e implementar una base de datos relacional que satisfaga todas las necesidades de gestiónes gastronomicas para nuestro sistema de gestión de buffet. Esta base de datos deberá ser eficiente, escalable y fácil de mantener, permitiendo una gestión ágil y precisa de todas las operaciones.
+Nuestro objetivo es conocer nuestros comensales, para asi definir un menu  "semi-fijo", El cual nos va a dar la base de nuestras compras de mercaderia, con el afan de obtener la menor cantidad de desperdicio de almientos posibles.
+
 
 Descripción de la Base de Datos - Buffet
 Esta base de datos está diseñada para gestionar un negocio gastronomico, así como la información relacionada con clientes, Empleados, Platos y Pedidos. A continuación se detallan los elementos principales de la base de datos:
