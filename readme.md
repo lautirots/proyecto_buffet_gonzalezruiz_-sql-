@@ -22,58 +22,72 @@ Esta base de datos está diseñada para gestionar un negocio gastronomico, así 
 
 Tablas:
 
-CLIENTE:
+CLIENTE:  Almacena información sobre los clientes que realizan pedidos.
 
-Almacena información sobre los clientes que realizan pedidos.
+
 Atributos:
+
 IDCLIENTE,
 NOMBRE, 
 TELEFONO,
 EMAIL.
 
 EMPLEADO: Contiene información sobre los empleados involucrados en el proceso de preparacion de alimentos y atencion al publico.
+
+
 Atributos:
+
 EmpleadoID ,
-    Nombre ,
-    Apellido ,
-    Cargo ,
-    FechaContratacion ,
-    Salario 
+Nombre ,
+Apellido ,
+Cargo ,
+FechaContratacion ,
+ Salario 
 
-PLATOS:
+PLATOS:  Define diferentes tipos de platos para clasificarlos según su categoria o precio específico.
 
-Define diferentes tipos de platos para clasificarlos según su categoria o precio específico.
+
 Atributos:
-    PlatoID 
-    Nombre 
-    Precio 
-    CategoriaID
 
-CATEGORIAS:
 
- Categorías a las que pertenecen los platos (por ejemplo, celiacos, vegetarianos, diabeticos).
+ PlatoID 
+Nombre 
+ Precio 
+ CategoriaID
+
+CATEGORIAS:   Categorías a las que pertenecen los platos (por ejemplo, celiacos, vegetarianos, diabeticos).
+
+
 Atributos:
+
+
 CategoriaID ,
-    Nombre
+Nombre
 
 
-PEDIDOS:
-Información sobre los pedidos realizados por los clientes.
+PEDIDOS:     Información sobre los pedidos realizados por los clientes.
+
+
 Atributos: 
-    PedidoID ,
-    ClienteID ,
-    EmpleadoID ,
-    FechaPedido ,
-    Total
 
-DETALLES_PEDIDOS:
-Detalles de cada plato en un pedido específico.
+
+   PedidoID ,
+   ClienteID ,
+   EmpleadoID ,
+   FechaPedido ,
+   Total
+
+DETALLES_PEDIDOS:  Detalles de cada plato en un pedido específico.
+
+
 Atributos:
-    DetalleID ,
-    PedidoID ,
-    PlatoID ,
-    Cantidad ,
-    PrecioUnitario
+
+
+ DetalleID ,
+ PedidoID ,
+ PlatoID ,
+ Cantidad ,
+ PrecioUnitario
 
 
 Esta base de datos permite gestionar eficientemente el proceso de gestion gastronomica, desde la información de los clientes y empleados hasta los tipos de platos y sus precios. Algunos aspectos que aborda incluyen:
@@ -84,7 +98,7 @@ Registro detallado de los pedidos realizados, incluyendo la fecha, cliente, plat
 En resumen, esta base de datos proporciona una estructura para organizar y gestionar eficientemente las operaciones deun buffet, lo que contribuye a mejorar el servicio ofrecido a los clientes. 
 
 
-
+```
 +------------------+       +-----------------------+       +------------------+
 |      CLIENTE     |       |       PEDIDO          |       |   DETALLE_PEDIDO |
 +------------------+       +-----------------------+       +------------------+
@@ -103,7 +117,7 @@ En resumen, esta base de datos proporciona una estructura para organizar y gesti
 | posicion         |       |                  |       | precio            |
 | salario          |       +------------------+       | idCategoria (fk)  |
 +------------------+                                 +-------------------+
-
+```
 
 
 
